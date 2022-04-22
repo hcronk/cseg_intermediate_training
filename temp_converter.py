@@ -63,8 +63,8 @@ def fahrenheit_to_celcius(fahrenheit):
     return (fahrenheit - 32) * 5/9
 
 
-def place_holder():
-    pass
+def celcius_to_fahrenheit(celcius):
+    ret (9/5 * celcius) + 32
 
 
 if __name__ == "__main__":
