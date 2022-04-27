@@ -62,12 +62,14 @@ Functions will include:
 def fahrenheit_to_celcius(fahrenheit):
     return (fahrenheit - 32) * 5/9
 
-
 def celcius_to_kelvin(celcius):
     return celcius + 273.15
     
 def kelvin_to_celcius(kelvin):
     return kelvin - 273.15
+
+def celcius_to_fahrenheit(celcius):
+    ret (9/5 * celcius) + 32
 
 
 if __name__ == "__main__":
